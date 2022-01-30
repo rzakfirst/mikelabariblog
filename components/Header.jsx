@@ -15,8 +15,8 @@ const Header = () => {
   }, []);
 
   return (
-    <nav class="navbar navbar-expand-lg padding-bottom-10 navbar-dark bg-dark">
-      <div class="container">
+    <nav className="navbar navbar-expand-lg padding-bottom-10 navbar-dark bg-dark">
+      <div className="container">
         <a href="/">
           <Image
             unoptimized
@@ -26,10 +26,10 @@ const Header = () => {
             src={require('../public/logom.png')}
           />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse" id="navbarNavAltMarkup">
+        <div className="navbar-collapse" id="navbarNavAltMarkup">
           <div className="hidden md:float-left md:contents">
             {categories.map((category, index) => (
               <Link key={index} href={`/category/${category.slug}`}>
