@@ -15,32 +15,32 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="arriere container mx-auto px-10 mb-8">
-      <div className="border-b w-full inline-block border-black-400 py-8">       
-        <div className=" left-0 right-100 -top-0 ">
-         <Image
-          unoptimized
-          loader={grpahCMSImageLoader}
-          alt="test"
-          height="150px"
-          width="150px"
-          className="align-middle rounded-full"
-          src={require('../public/logo.png')}
-        />
-    </div>
-         <Link href="/">
-            <span className="cursor-pointer left-0 font-bold text-4x10 text-black">Mi Ke Labari ?!</span>
-          </Link>
-        
-
-        <div className="hidden md:float-left md:contents">
-          {categories.map((category, index) => (
-            <Link key={index} href={`/category/${category.slug}`}><span className="md:float-right mt-2 align-middle text-yellow-400 ml-4 font-semibold cursor-pointer">{category.name}</span></Link>
-          ))}
+    <nav class="navbar navbar-expand-lg padding-bottom-10 navbar-dark bg-dark">
+      <div class="container">
+        <a href="/">
+          <Image
+            unoptimized
+            alt="test"
+            height="75px"
+            width="75px"
+            src={require('../public/logom.png')}
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarNavAltMarkup">
+          <div className="hidden md:float-left md:contents">
+            {categories.map((category, index) => (
+              <Link key={index} href={`/category/${category.slug}`}>
+                <span className="md:float-right mt-2 align-middle text-yellow-400 ml-4 font-semibold cursor-pointer">
+                  {category.name}</span></Link>
+              ))
+            }
+          </div>
         </div>
-
       </div>
-    </div>
+    </nav>
   );
 };
 

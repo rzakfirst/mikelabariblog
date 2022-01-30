@@ -91,7 +91,7 @@ const CommentsForm = ({ slug }) => {
           <label className="text-gray-500 cursor-pointer" htmlFor="storeData"> Ajiye sunana, imel a cikin wannan burauzar don lokaci na gaba na sharhi.</label>
         </div>
       </div>
-      {error && <p className="text-xs text-red-500">All fields are mandatory</p>}
+      {error && <p className="text-xs text-red-500">Ku cika sharadi</p>}
       <div className="mt-8">
         <button type="button" onClick={handlePostSubmission} className="transition duration-400 ease hover:bg-yellow-300 inline-block bg-yellow-400 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">Buga sharhi</button>
         {showSuccessMessage && <span className="text-xl float-right font-semibold mt-3 text-green-500">An ƙaddamar da sharhi don dubawa</span>}
