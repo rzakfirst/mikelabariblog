@@ -2,23 +2,9 @@ import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget } from '../components';
 import { useEffect } from 'react';
 import { getPosts } from '../services';
-import Script from 'next/script';
 
 export default function Home({ posts }) {
-  
-  useEffect(() => {
-    const script = document.createElement('script');
-  
-    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8216728679741517";
-    script.async = true;
-  
-    document.body.appendChild(script);
-  
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
-  
+ 
   return (
     <div className="container mx-auto px-10 mb-8">
     
