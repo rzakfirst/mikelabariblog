@@ -3,6 +3,20 @@ import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
 
 export default function Home({ posts }) {
+  
+  useEffect(() => {
+    const script = document.createElement('script');
+  
+    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8216728679741517";
+    script.async = true;
+  
+    document.body.appendChild(script);
+  
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+  
   return (
     <div className="container mx-auto px-10 mb-8">
       <FeaturedPosts />
