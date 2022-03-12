@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8216728679741517"
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8405458068605642"
      crossorigin="anonymous"></script>
           <title>Mi Ke Labari ?! </title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
