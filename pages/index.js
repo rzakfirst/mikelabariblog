@@ -1,28 +1,14 @@
+import React from 'react';
+import { getPosts } from '../services';
 import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget } from '../components';
-import { useEffect } from 'react';
-import { getPosts } from '../services';
+import Footer from '../components/Footer';
 
 export default function Home({ posts }) {
- 
   return (
     <div className="container mx-auto px-10 mb-8">
-    
+      <br/>
       <FeaturedPosts />
-    
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8216728679741517"
-     crossorigin="anonymous">
-    </script>
-    <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8216728679741517"
-     data-ad-slot="6223801458"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-    <script>
-    
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
           {posts.map((post, index) => (
@@ -36,6 +22,7 @@ export default function Home({ posts }) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
