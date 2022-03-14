@@ -17,6 +17,7 @@ const PostCard = ({ post }) => (
         src={post.featuredImage.url}
       />
     </div> */}
+
     <div className="relative overflow-hidden shadow-md pb-80 mb-6">
       <img src={post.featuredImage.url} alt="" className="object-top absolute h-80 w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg" />
     </div>
@@ -35,7 +36,7 @@ const PostCard = ({ post }) => (
           className="align-middle rounded-full"
           src={require('../public/logo.png')}
         />
-        <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">Mi Ke Labari</p>
+        <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">Mi Ke Labari ?! </p>
       </div>
       <div className="font-medium text-gray-700">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline mr-2 text-yellow-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
