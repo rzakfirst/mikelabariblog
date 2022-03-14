@@ -88,7 +88,7 @@ const CommentsForm = ({ slug }) => {
       <div className="grid grid-cols-1 gap-4 mb-4">
         <div>
           <input checked={formData.storeData} onChange={onInputChange} type="checkbox" id="storeData" name="storeData" value="true" />
-          <label className="text-gray-500 cursor-pointer" htmlFor="storeData"> Ajiye suna na, a cikin wannan kafa don lokaci lokaci na gaba na samu yin sharhi ba tare da wata matsala ba.</label>
+          <label className="text-gray-500 cursor-pointer" htmlFor="storeData"> Ajiye suna na, a cikin wannan kafa don lokaci na gaba na samu yin sharhi ba tare da wata matsala ba.</label>
         </div>
       </div>
       {error && <p className="text-xs text-red-500">Ku cika sharadi</p>}
