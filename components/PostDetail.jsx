@@ -56,7 +56,7 @@ const PostDetail = ({ post }) => {
                 height="30px"
                 width="30px"
                 className="align-middle rounded-full"
-                src={('../public/logom.png')}
+                src={('../public/logo.png')}
               />
               <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">Mi Ke Labari ?!</p>
             </div>
