@@ -20,8 +20,8 @@ const Header = () => {
           <Image
             unoptimized
             alt="test"
-            height="75px"
-            width="75px"
+            height="80px"
+            width="80px"
             // eslint-disable-next-line global-require
             src={require('../public/logo.png')}
           />
