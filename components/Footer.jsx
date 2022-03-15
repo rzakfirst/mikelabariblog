@@ -16,11 +16,21 @@ const Footer = () => {
      Godiya Mu kai yi 😇.
     </p>
     <div className="icons">
-    <FontAwesomeIcon icon={faFacebook} className='iconfoot'/>
-    <FontAwesomeIcon icon={faWhatsapp} className='iconfoot'/>
-    <FontAwesomeIcon icon={faTiktok} className='iconfoot'/>
-    <FontAwesomeIcon icon={faYoutube} className='iconfoot'/>
-    <FontAwesomeIcon icon={faInstagram} className='iconfoot'/>
+    <a href="https://www.facebook.com/mikelabaritv" target="_blank">
+          <FontAwesomeIcon icon={faFacebook} className='iconfoot'/>
+        </a>
+        <a href="https://wa.me/message/AOQFJPCEPYJ5A1" target="_blank">
+          <FontAwesomeIcon icon={faWhatsapp} className='iconfoot'/>
+        </a>
+        <a href="http://youtube.com/c/mikelabaritv" target="_blank">
+          <FontAwesomeIcon icon={faYoutube} className='iconfoot'/>
+        </a>
+        <a href="https://instagram.com/mikelabari_tv" target="_blank">
+          <FontAwesomeIcon icon={faInstagram} className='iconfoot'/>
+        </a>
+        <a href="https://tiktok.com/@mikelabaritv" target="_blank">
+          <FontAwesomeIcon icon={faTiktok} className='iconfoot'/>
+        </a>
     </div>
   </div>
   <div className="footer-center col-md-4 col-sm-6">
