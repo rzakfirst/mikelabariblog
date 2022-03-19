@@ -9,11 +9,13 @@ const Footer = () => {
     <footer className="footer">
   <div className="footer-left col-md-4 col-sm-6">
     <p className="about">
-      <span styleName='titl'> <u>GAME DA MU</u></span> Tashar 📺 Mi ke labari ?! Kafa 📡 ce wada kai kawo muku labarun 🗞 duniya 🌍 musaman na Niger 🇳🇪. 
-     Ba’a ayi labari 🗞 muka tsaya ba ✅, muna yada al’adun Niger da Kuma mawakan 🎵 gargajiya da na zamani. Sai fitatun ⭐️ mutanen 👥 
-     da suka kawo gudumuwa domin ci gaba a kowani panni cikin kasar Niger 🇳🇪.
-     Za ku iya biyo mu domin zama cikakun Yan Mi ke labari ?! 💛
-     Godiya Mu kai yi 😇.
+      <span styleName='titl'> <u>GAME DA MU</u></span> Tashar 📺 Mi ke Labari?! 
+Kafa 📡 ce wacce ke Ka maku ingantattun Labaran 🗞 Duniya 🌍,
+ Musamman na Ƙasar Niger 🇳🇪. 
+Mi ke Labari ?! ,ba a iya Labarai 🗞 kawai muka tsaya ba, tasharmu 📺 na yaɗa al'adun Niger 🇳🇪 ,
+da kuma Tallata Mawaƙan 🎵 gargajiya da na zamani,kai har da ma fitattun 
+⭐️ Mutanen suke bada gudummawa ta fannoni dabam-dabam wajan cigaban ƙasar Niger 🇳🇪. Sauran zance , sai ku biyo mu 😉.
+Mun gode 😇 !
     </p>
     <div className="icons">
     <a href="https://www.facebook.com/mikelabaritv" target="_blank">
